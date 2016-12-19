@@ -1,6 +1,16 @@
 var express = require('express');
 var app = express();
 
+var $;
+require("jsdom").env("", function(err, window) {
+    if (err) {
+        console.error(err);
+        return;
+    }
+
+    $ = require("jquery")(window);
+});
+
 app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public'));
