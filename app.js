@@ -107,6 +107,6 @@ app.get('/:lat/:lon', function (req, res) {
  	//res.setHeader('Content-Type', 'application/json');
  	//res.send(resp);
 })
-app.listen(3000);
-
-console.log('server runing at 127.0.0.1:3000');
+//app.listen(3000);
+app.set('port', (process.env.PORT || 5000));
+console.log('server runing..');
