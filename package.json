@@ -1,0 +1,25 @@
+{
+  "name": "pocketweather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garyjdn/pocketweather.git"
+  },
+  "author": "Calvine Jardinia Tanuwidjaja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garyjdn/pocketweather/issues"
+  },
+  "homepage": "https://github.com/garyjdn/pocketweather#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}
